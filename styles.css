@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head{
+    padding: 0px 250px 40px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937 ;
+}
+
+.navbar{
+    display: flex;
+    gap: 440px;
+    align-items: center;
+    color: #fff;
+    background-color: #1f2937;
+    margin-bottom: -10px;
+}
+
+.title{
+    padding: 5px;
+}
+
+.title h3{
+    font-size: 18px;
+}
+
+.links{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 5px;
+}
+
+.left{
+    width: 600px;
+    padding: 5px;
+}
+
+.header .left{
+    margin-right: -120px;
+    margin-left: -20px;
+}
+
+.headerTitle{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: -5px;
+    width: 350px;
+}
+
+.link,.headerContent{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerContent{
+    width: 450px;
+}
+
+.headerButton{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 85px 70px;
+    background-color: #bababa3a;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.subtextContainer{
+    display: flex;
+    gap: 5px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+}
+
+.box{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.text{
+    text-align: center;
+    width: 150px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0px;
+    padding: 50px 0px;
+}
+
+.mainQuote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 850px;
+}
+
+.quoteBy{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.signUp{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+
+.signUp .left .callAction{
+    margin-bottom: -15px;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.signUp .left .signProduct{
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.signUp .right .signUp{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 18px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
